@@ -1,0 +1,42 @@
+
+
+
+
+
+body{
+font-size: 62.5%;
+background-color: black;
+
+
+}
+.main_1{
+    display: grid;
+    place-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.3rem;
+
+}
+.inside_div{
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    background:linear-gradient(red,black);
+    height:12rem;
+    width: 8rem;
+}
+.inside_div .img{
+    height: 50%;
+    width: 100%;
+}
+a:hover{
+transform: scale(1.1);
+}
+a:hover h2{
+    transform: translateY(-0.8rem);
+}

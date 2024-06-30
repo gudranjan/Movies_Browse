@@ -1,0 +1,32 @@
+
+body{
+font-size: 62.5%;
+
+}
+
+.outer{
+    display: grid;
+    place-content: center;
+}
+.outer_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(red,black);
+    width: 13rem;
+    height: 15rem;
+    margin-top: 3rem;
+    
+    padding: 1rem;
+
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+ .img_2{
+    width: 55%;
+    height: 70%;
+    margin-right: 10px;
+}
